@@ -1,0 +1,29 @@
+.loginArea {
+  width: 400px;
+  margin: 200px;
+}
+
+.logo {
+  color: #03c75a;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputform {
+  outline: none;
+  border: 1px solid gray;
+  height: 30px;
+  margin: 10px 0px;
+}
+
+.loginbutton {
+  outline: none;
+  width: 100%;
+  background-color: #03c75a;
+  color: white;
+  height: 30px;
+  margin-top: 20px;
+}

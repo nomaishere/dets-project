@@ -1,0 +1,30 @@
+$red: #fa5232;
+$orange: #fd7e14;
+$yellow: #fcc419;
+
+@mixin sqaure($size) {
+  $calculated: 32px * $size;
+  width: $calculated;
+  height: $calculated;
+}
+
+.box {
+  display: flex;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+
+  &__red {
+    background: $red;
+    @include sqaure(1);
+  }
+
+  &__orange {
+    background: $orange;
+    @include sqaure(2);
+  }
+
+  &__yellow {
+    background: $yellow;
+    @include sqaure(3);
+  }
+}
